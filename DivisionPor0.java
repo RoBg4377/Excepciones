@@ -3,9 +3,7 @@ import java.util.Scanner;
 
 public class DivisionPor0 {
     public static void main(String[] args) {
-        //Este primer try lo pide el auto completado para no generar inconvenites.
-        //debe ser porque no hay paquetes y un método main especifico que maneje las exc.
-        try (Scanner sc = new Scanner(System.in)) {
+         Scanner sc = new Scanner(System.in);
             //creamos un programa para dividir
             System.out.println("PROGRAMA PARA DIVIDIR");
             System.out.println("--------------------------------");
@@ -32,11 +30,11 @@ public class DivisionPor0 {
                 //puede contener un código para ello
                 System.out.println("cierre de recursos del programa de division");
             }
+            System.out.println("PROGRAMA TERMINADO");
         }
         //Luego de manejada la exception el programa sigue corriendo.
-        System.out.println("PROGRAMA TERMINADO");
 
         
     }
     
-}
+
