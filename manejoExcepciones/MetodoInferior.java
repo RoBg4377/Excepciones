@@ -1,4 +1,4 @@
-package excepciones;
+package excepciones.manejoExcepciones;
 
 public class MetodoInferior {
     //Creamos un método (metodoInferior)que lo único que hace es crear una excepción.

@@ -1,4 +1,4 @@
-package excepciones;
+package excepciones.manejoExcepciones;
 
 public class Division {
     //creamos un método estático para dividir.

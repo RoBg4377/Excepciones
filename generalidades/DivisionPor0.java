@@ -1,4 +1,4 @@
-package excepciones;
+package excepciones.generalidades;
 import java.util.Scanner;  
 
 public class DivisionPor0 {
@@ -16,6 +16,16 @@ public class DivisionPor0 {
             //tratar de dividir entre 0.
             //Para poder seguir ejecutando cualquier programa luego de la división pese a la exc
             //debemos manejarla con la siguiente estructura: try, catch, finally.
+            
+            // Excepciones verificadas
+            // controlar el uso de try catch en tiempo de compilacion 
+            // Es obligatorio usar try catch para poder comiplar
+            // Heredan de Exception
+            
+            // Excepciones no verificadas
+            // no obligan el uso de try catch en tiempo de compilacion
+            // Heredan RuntimeException
+
             try {
                 //Se ordena que trate de ejecutar la función a controlar y que no se ejecutará si
                 //existe una excepción

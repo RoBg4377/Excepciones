@@ -1,4 +1,4 @@
-package excepciones;
+package excepciones.manejoExcepciones;
 
 public class MetodoSuperior {
     //Aquí creamos un método que ejecuta el método "metodoMedio" de la clse MetodoMedio
